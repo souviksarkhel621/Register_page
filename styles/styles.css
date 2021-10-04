@@ -26,9 +26,9 @@ button{
   color:white;
   font-size: 150%;
   padding: 15px;
+  margin-top: -15px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 1.1%;
   border-radius: 5%;
 }
 button:hover{
