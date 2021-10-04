@@ -1,0 +1,45 @@
+body{
+  background-color: #fcd5ce;
+}
+.div{
+  display: flex;
+  justify-content: center;
+}
+.mydiv{
+  margin-top: 8%;
+  background-color: white;
+  text-align: center;
+  height: 500px;
+  width: 400px;
+  border-radius: 9%;
+  font-size:1.2em;
+}
+.fields{
+  text-align: left;
+  padding-left: 5%
+}
+label{
+  color:#0a9396;
+}
+button{
+  background-color:#2a9d8f;
+  color:white;
+  font-size: 150%;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 1.1%;
+  border-radius: 5%;
+}
+button:hover{
+  background-color:  #4F359B;
+  transform: scale(1.1);
+}
+input[type=text], input[type=password] {
+  width: 87%;
+  padding: 15px;
+  margin: 10px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}

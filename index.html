@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Register Page</title>
+  <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+  <div class="div">
+    <div class="mydiv">
+      <div class="Heading">
+        <h1>Register</h1>
+      </div>
+      <hr>
+      <div class="">
+        <form class="" action="index.html" method="post">
+          <div class="fields">
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" oninvalid="this.setCustomValidity('Please enter a valid email address')" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="pass" id="pass"   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" oninvalid="this.setCustomValidity('Your Password should contain Atleast one upper case,One Lower Case,one Numeric and one special charecter and should have size of minimum 8')" required>
+
+            <label for="psw-repeat"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Confirm Password" name="pass-confirm" id="pass-confirm" required>
+
+          </div>
+
+          <hr>
+          <button type="submit" id="registerbutton"  disabled>Register</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
