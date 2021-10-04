@@ -35,6 +35,10 @@ button:hover{
   background-color:  #4F359B;
   transform: scale(1.1);
 }
+button:disabled{
+  background-color:  #ced4da;
+  transform: scale(0.8);
+}
 input[type=text], input[type=password] {
   width: 87%;
   padding: 15px;
