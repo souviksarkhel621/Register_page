@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Register Page</title>
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 
@@ -16,16 +16,20 @@
       </div>
       <hr>
       <div class="">
-        <form class="" action="index.html" method="post">
+        <form action="/" method="POST">
           <div class="fields">
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name" id="name" oninvalid="this.setCustomValidity('Please enter a your name')" onkeyup='check();' required>
+            <label for="name"><b>Branch</b></label>
+            <input type="text" placeholder="Eg: Mechanical Engineering" name="branchname" id="branchname" oninvalid="this.setCustomValidity('Please enter your branch')" onkeyup='check();' required>
             <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" id="email" oninvalid="this.setCustomValidity('Please enter a valid email address')" onkeyup='check();'required>
+            <input type="email" placeholder="Enter Email" name="email" id="email" oninvalid="this.setCustomValidity('Please enter a valid email address')" onkeyup='check();'required>
 
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter minimum 8 digit Password" name="pass" id="pass"   oninvalid="this.setCustomValidity('Your Password should have 8 charecters')" onkeyup='check();' required>
 
             <label for="psw-repeat"><b>Confirm Password</b></label>
-            <input type="password" placeholder="Confirm Password" name="pass-confirm" id="pass-confirm"  onkeyup='check();' required>
+            <input type="password" placeholder="Confirm Password" name="passconfirm" id="passconfirm"  onkeyup='check();' required>
 
           </div>
 

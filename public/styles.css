@@ -6,10 +6,10 @@ body{
   justify-content: center;
 }
 .mydiv{
-  margin-top: 8%;
+  margin-top: 3%;
   background-color: white;
   text-align: center;
-  height: 500px;
+  height: 650px;
   width: 400px;
   border-radius: 9%;
   font-size:1.2em;
@@ -39,10 +39,10 @@ button:disabled{
   background-color:  #ced4da;
   transform: scale(0.8);
 }
-input[type=text], input[type=password] {
+input {
   width: 87%;
   padding: 15px;
-  margin: 10px 0 10px 0;
+  margin: 5px 0 5px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
